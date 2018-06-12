@@ -1,0 +1,23 @@
+div[id^="row"] {
+  display: flex;
+}
+div[id^="color"] {
+  display: flex;
+  flex-flow: column;
+}
+.pixel,
+.palette {
+  width: 25px;
+  height: 25px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.palette-row {
+  float: right;
+}
+.pixel {
+}
+body {
+  margin: 10%;
+  text-align: center;
+}
